@@ -35,6 +35,16 @@ export class NavbarPage extends React.Component {
         });
     }
 
+    async loadUserImage() {
+        let user;
+        await getUser(localStorage.getItem('user_id')).then(res => {
+            user = res;
+        });
+        this.setState({
+            image: user.image
+        });
+    }
+
     toggleCollapse = collapseID => () =>
         this.setState(prevState => ({
             collapseID: prevState.collapseID !== collapseID ? collapseID : ""
