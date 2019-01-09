@@ -36,7 +36,7 @@ export function deleteMessage(messageId, authorId){
   }
 
   return axios({
-    url: 'https://test2-back-end.herokuapp.com/graphql',
+    url: '/graphql',
     method: 'post',
     data : queryToSend
     })
@@ -58,7 +58,7 @@ export function getUser(userId){
   }
 
   return axios({
-    url: 'https://test2-back-end.herokuapp.com/graphql',
+    url: '/graphql',
     method: 'post',
     data : queryToSend
     })
@@ -81,7 +81,7 @@ export function getMessages(authorId, offset) {
   }
 
   return axios( {
-    url: 'https://test2-back-end.herokuapp.com/graphql',
+    url: '/graphql',
     method: 'post',
     data: queryToSend
   })
@@ -105,7 +105,7 @@ export function createUser (email, username, password){
   }
 
   return axios({
-    url: 'https://test2-back-end.herokuapp.com/graphql',
+    url: '/graphql',
     method: 'post',
     data : queryToSend
     })
@@ -128,7 +128,7 @@ export function createUser (email, username, password){
     }
   
     return axios({
-      url: 'https://test2-back-end.herokuapp.com/graphql',
+      url: '/graphql',
       method: 'post',
       data : queryToSend
       })
@@ -151,7 +151,7 @@ export function createUser (email, username, password){
     }
   
     return axios({
-      url: 'https://test2-back-end.herokuapp.com/graphql',
+      url: '/graphql',
       method: 'post',
       data : queryToSend
       })
@@ -174,7 +174,7 @@ export function createUser (email, username, password){
     }
   
     return axios({
-      url: 'https://test2-back-end.herokuapp.com/graphql',
+      url: '/graphql',
       method: 'post',
       data : queryToSend
       })
@@ -197,7 +197,7 @@ export function createUser (email, username, password){
     }
   
     return axios({
-      url: 'https://test2-back-end.herokuapp.com/graphql',
+      url: '/graphql',
       method: 'post',
       data : queryToSend
       })
@@ -221,7 +221,7 @@ export function createUser (email, username, password){
     }
   
     return axios({
-      url: 'https://test2-back-end.herokuapp.com/graphql',
+      url: '/graphql',
       method: 'post',
       data : queryToSend
       })
@@ -244,7 +244,7 @@ export function createUser (email, username, password){
     }
   
     return axios({
-      url: 'https://test2-back-end.herokuapp.com/graphql',
+      url: '/graphql',
       method: 'post',
       data : queryToSend
       })
@@ -266,7 +266,7 @@ export function createUser (email, username, password){
     }
   
     return axios({
-      url: 'https://test2-back-end.herokuapp.com/graphql',
+      url: '/graphql',
       method: 'post',
       data : queryToSend
       })
@@ -288,7 +288,7 @@ export function createUser (email, username, password){
     }
   
     return axios({
-      url: 'https://test2-back-end.herokuapp.com/graphql',
+      url: '/graphql',
       method: 'post',
       data : queryToSend
       })
@@ -310,7 +310,7 @@ export function createUser (email, username, password){
     }
   
     return axios({
-      url: 'https://test2-back-end.herokuapp.com/graphql',
+      url: '/graphql',
       method: 'post',
       data : queryToSend
       })
@@ -332,7 +332,7 @@ export function createUser (email, username, password){
     }
   
     return axios({
-      url: 'https://test2-back-end.herokuapp.com/graphql',
+      url: '/graphql',
       method: 'post',
       data : queryToSend
       })

@@ -35,10 +35,7 @@ export class ProfilePage extends React.Component {
                 avatar={user.image}
                 username={user.username}
                 email={user.email}
-                following={user.following}
-                followers={user.followers}
                 id={user.id}
-                displayFollowButton={user.id.localeCompare(localStorage.getItem('user_id'))}
             />)
         });   
     }

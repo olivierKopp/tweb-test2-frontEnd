@@ -55,10 +55,7 @@ export class NavbarPage extends React.Component {
                 <Navbar color="secondary-color" dark expand="md">
                     <NavbarBrand>
                         <strong className="white-text">
-                            Happy
-                            <span role="img" aria-label="happyFace1">😙</span>
-                            <span role="img" aria-label="happyFace2">😺</span>
-                            <span role="img" aria-label="happyFace3">👻</span>
+                            Test tweb
                         </strong>
                     </NavbarBrand>
                     <NavbarToggler onClick={this.toggleCollapse("navbarCollapse3")} />
@@ -66,12 +63,7 @@ export class NavbarPage extends React.Component {
                         <NavbarNav left style={{ fontSize: '2rem' }}>
                             <NavItem active>
                                 <NavLink to="/">
-                                <span role="img" aria-label="home">🏠</span>
-                                </NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink to="/newMessage">
-                                    <span role="img" aria-label="newMessage">💬</span>
+                                <span role="img" aria-label="home">Home</span>
                                 </NavLink>
                             </NavItem>
                         </NavbarNav>
@@ -80,7 +72,7 @@ export class NavbarPage extends React.Component {
                             <NavItem>
                                 <FormInline waves onSubmit={this.onSubmit}>
                                     <div className="md-form my-0">
-                                        <input className="form-control mr-sm-2" type="text" value={this.state.input} onChange={this.handleInputChange} placeholder="🔎👪" aria-label="Search" />
+                                        <input className="form-control mr-sm-2" type="text" value={this.state.input} onChange={this.handleInputChange} placeholder="search user" aria-label="Search" />
                                     </div>
                                 </FormInline>
                             </NavItem>

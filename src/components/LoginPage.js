@@ -32,10 +32,7 @@ export const LoginPage = () => {
                                 <MDBCard style={{marginTop: '20%'}}>
                                     <MDBCardBody>
                                         <h1 className="my-1" style={ { textAlign: 'center'} }>
-                                            Happy
-                                            <span role="img" aria-label="happyFace1">😙</span>
-                                            <span role="img" aria-label="happyFace2">😺</span>
-                                            <span role="img" aria-label="happyFace3">👻</span>
+                                            Test TWEB
                                         </h1> 
                                         <MDBCardHeader className="form-header deep-blue-gradient rounded">
                                             <h3 className="my-3">
