@@ -24,7 +24,7 @@ export const LoginPage = () => {
                 };
 
                 return (
-                    <BackgroundPage src={Background}>
+                    <BackgroundPage >
                         <MDBRow style={ { display: 'flex', justifyContent: 'center'} }>
                             <MDBCol md="4">
                                 <MDBCard style={{marginTop: '20%'}}>
