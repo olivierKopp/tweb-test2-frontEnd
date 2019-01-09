@@ -12,10 +12,10 @@ import { SearchPage } from './components/SearchPage';
 export default () => {
   return (
     <Switch>
-      <ProtectedRoute path="/" exact component={HomePage} />
+      <Route path="/" exact component={HomePage} />
       <Route path="/login" component={LoginPage} />
       <Route path="/register" component={RegisterPage} />
-      <ProtectedRoute path="/newMessage" component={NewMessagePage} />
+      <Route path="/newMessage" component={NewMessagePage} />
       <Route path="/u/:user_id" component={ProfilePage} />
       <Route path="/search/:username" component={SearchPage} />
     </Switch>
