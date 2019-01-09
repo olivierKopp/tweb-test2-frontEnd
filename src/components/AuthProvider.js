@@ -30,7 +30,6 @@ class AuthProvider extends Component {
                 this.setState({ user });
             })
             .catch(err => {
-                console.log(err);
                 localStorage.removeItem('token');
             })
         }
