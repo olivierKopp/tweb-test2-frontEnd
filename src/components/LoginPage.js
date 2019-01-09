@@ -68,7 +68,7 @@ export const LoginPage = () => {
                                         </form>
                                         <MDBModalFooter>
                                             <div className="font-weight-light" style={{ textAlign: 'right' }}>
-                                                <a href="/register">Not in our 
+                                                <a href="/register">
                                                     Sign in
                                                 </a>
                                                 <br />
