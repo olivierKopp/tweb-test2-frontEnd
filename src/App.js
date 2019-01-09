@@ -14,8 +14,8 @@ export default () => {
       <ProtectedRoute path="/" exact component={HomePage} />
       <Route path="/login" component={LoginPage} />
       <Route path="/register" component={RegisterPage} />
-      <Route path="/u/:user_id" component={ProfilePage} />
-      <Route path="/search/:username" component={SearchPage} />
+      <ProtectedRoute path="/u/:user_id" component={ProfilePage} />
+      <ProtectedRoute path="/search/:username" component={SearchPage} />
     </Switch>
   );
 };
