@@ -80,16 +80,9 @@ export class NavbarPage extends React.Component {
 
                         <NavbarNav right>
                             <NavItem>
-                                <NavLink className="waves-effect waves-light d-flex align-items-center" 
-                                         to="#!" 
-                                         style={{ fontSize: '1.75rem' }}>
-                                         1<Fa icon="envelope" className="ml-1" />
-                                </NavLink>
-                            </NavItem> 
-                            <NavItem>
                                 <Dropdown>
                                     <DropdownToggle caret className="dopdown-toggle" nav>
-                                        <img src="./images/menu.png" className="rounded-circle z-depth-0" style={{height: '35px', width: '35px', padding: 0}} alt="" />
+                                        <img src="../images/menu.png" className="rounded-circle z-depth-0" style={{height: '35px', width: '35px', padding: 0}} alt="" />
                                     </DropdownToggle>
                                     <DropdownMenu className="dropdown-default" right>
                                         <MDBDropdownItem href={`/u/${localStorage.getItem('user_id')}`}>My Profile</MDBDropdownItem>
