@@ -3,13 +3,13 @@
     "clean_urls": false,
     "proxies": {
       "/auth/": {
-        "origin": "https://emojee-server.herokuapp.com/auth"
+        "origin": "https://test2-back-end.herokuapp.com/auth"
       },
       "/graphql/": {
-        "origin": "https://emojee-server.herokuapp.com/graphql"
+        "origin": "https://test2-back-end.herokuapp.com/graphql"
       },
       "/api/": {
-        "origin": "https://emojee-server.herokuapp.com/api"
+        "origin": "https://test2-back-end.herokuapp.com/api"
       }
     },
     "routes": {
