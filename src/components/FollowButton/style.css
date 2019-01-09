@@ -1,0 +1,88 @@
+/***** BUTTON *****/
+
+button:focus {outline:0;}
+
+.button-follow {
+    border: 2px solid #8a8a8a;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    border-radius: 3rem;
+    color: #8a8a8a;
+    transition: all ease 0.4s;
+    margin-bottom: 10px;
+}
+
+.button-follow span {
+    margin-left: 0.5rem;
+}
+
+.button-follow .fa, 
+.button-follow span {
+  transition: all ease 0.4s;
+}
+
+.button-follow:focus {
+    background-color: transparent;
+}
+
+.button-follow:focus .fa,
+.button-follow:focus span {
+  color: #8a8a8a;
+}
+
+.button-follow:hover {
+    border-color: #0099ff;
+    background-color: transparent;
+}
+
+.button-follow:hover .fa,
+.button-follow:hover span {
+  color: #0099ff;
+}
+
+.followed {
+    background-color: #0099ff;
+    border-color: #0099ff;
+  }
+  
+.followed .fa,
+.followed span {
+  color: #fefefe;
+}
+  
+.followed:focus {
+    background-color: #0099ff;
+}
+  
+.followed:focus .fa,
+.followed:focus span {
+    color: #fefefe;
+}
+  
+.followed:hover {
+    background-color: #0099ff;
+    border-color: #0099ff;
+}
+  
+.followed:hover .fa,
+.followed:hover span {
+    color: #fefefe;
+}
+
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/**** END-BUTTON ****/
