@@ -47,7 +47,7 @@ export class ProfilePage extends React.Component {
                     return (
                         <div>
                             <NavbarPage logout={signOut} />
-                            <BackgroundPage src={Background}> 
+                            <BackgroundPage> 
                             <MDBRow style={ { display: 'flex', justifyContent: 'center'} }>
                                 <MDBCol md="3" style={{ marginTop: '7%' }}>
                                     {this.state.toDisplay}
