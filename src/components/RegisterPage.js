@@ -3,7 +3,6 @@ import { BackgroundPage } from './BackgroundPage';
 import  { Redirect } from 'react-router-dom'
 import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBModalFooter, MDBIcon, MDBCardHeader, MDBBtn, MDBInput } from 'mdbreact';
 
-import Background from '../images/login_background_2.jpg';
 import { throws } from 'assert';
 import { withRouter } from "react-router";
 

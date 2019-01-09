@@ -5,8 +5,6 @@ import { BackgroundPage } from './BackgroundPage';
 
 import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBModalFooter, MDBIcon, MDBCardHeader, MDBBtn, MDBInput } from 'mdbreact';
 
-import Background from '../images/login_background_3.png';
-
 export const LoginPage = () => {
 
     const [email, setEmail] = useState('');

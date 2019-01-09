@@ -7,7 +7,6 @@ import { BackgroundPage } from './BackgroundPage';
 import { ProfileCard } from './card/ProfileCard';
 import { getUser } from '../scripts/graphQL';
 
-import Background from '../images/login_background_2.jpg';
 import './card/style.css';
 
 export class ProfilePage extends React.Component {
