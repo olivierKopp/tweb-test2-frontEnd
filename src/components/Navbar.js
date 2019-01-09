@@ -35,16 +35,6 @@ export class NavbarPage extends React.Component {
         });
     }
 
-    async loadUserImage() {
-        let user;
-        await getUser(localStorage.getItem('user_id')).then(res => {
-            user = res;
-        });
-        this.setState({
-            image: user.image
-        });
-    }
-
     toggleCollapse = collapseID => () =>
         this.setState(prevState => ({
             collapseID: prevState.collapseID !== collapseID ? collapseID : ""
@@ -82,7 +72,7 @@ export class NavbarPage extends React.Component {
                             <NavItem>
                                 <Dropdown>
                                     <DropdownToggle caret className="dopdown-toggle" nav>
-                                        <img src="../images/menu.png" className="rounded-circle z-depth-0" style={{height: '35px', width: '35px', padding: 0}} alt="" />
+                                        <img src="https://static.thenounproject.com/png/988413-200.png" className="rounded-circle z-depth-0" style={{height: '35px', width: '35px', padding: 0}} alt="" />
                                     </DropdownToggle>
                                     <DropdownMenu className="dropdown-default" right>
                                         <MDBDropdownItem href={`/u/${localStorage.getItem('user_id')}`}>My Profile</MDBDropdownItem>
