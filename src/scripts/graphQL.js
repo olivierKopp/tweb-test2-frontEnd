@@ -13,7 +13,7 @@ export function createMessage (authorId, content) {
   }
 
   return axios({
-    url: 'https://test2-back-end.herokuapp.com/graphql',
+    url: '/graphql',
     method: 'post',
     data: queryToSend
   })
