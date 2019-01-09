@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import { FollowButton } from '../FollowButton/FollowButton';
-
 import './style.css';
 
 const colors = ['aqua-gradient', 'blue-gradient', 'purple-gradient', 'peach-gradient', 'dusty-grass-gradient'];
