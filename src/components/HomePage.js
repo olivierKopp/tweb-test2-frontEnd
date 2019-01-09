@@ -4,8 +4,6 @@ import { AuthContext } from './AuthProvider';
 import { NavbarPage } from './Navbar';
 import { BackgroundPage } from './BackgroundPage';
 
-import Background from '../images/login_background_2.jpg';
-
 export const HomePage = () => {    
     return (
         <AuthContext>
@@ -13,7 +11,7 @@ export const HomePage = () => {
                 return (
                     <div>
                         <NavbarPage logout={signOut}/>
-                        <BackgroundPage src={Background}>
+                        <BackgroundPage>
                             
                         </BackgroundPage>
                     </div>
