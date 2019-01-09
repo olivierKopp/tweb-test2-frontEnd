@@ -44,7 +44,6 @@ class AuthProvider extends Component {
                 this.setState({ user });
             })
             .catch(error => {
-                console.error(error);
                 this.setState({ error: 'Invalid email or password' });
             })
     }

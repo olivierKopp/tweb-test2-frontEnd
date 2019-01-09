@@ -19,7 +19,6 @@ export function createMessage (authorId, content) {
   })
   .then(response => response.data.data.createMessage)
   .catch(error => {
-    console.error(error);
   })
 }
 
@@ -42,7 +41,6 @@ export function deleteMessage(messageId, authorId){
     })
     .then(response => response.data.data.deleteMessage)
     .catch(error => {
-      console.error(error);
     })
 }
 
@@ -64,7 +62,6 @@ export function getUser(userId){
     })
     .then(response => response.data.data.getUser)
     .catch(error => {
-      console.error(error);
     })
 }
 
@@ -87,7 +84,6 @@ export function getMessages(authorId, offset) {
   })
   .then(response => response.data.data)
   .catch(error => {
-    console.error(error);
   });
 }
 
@@ -111,7 +107,6 @@ export function createUser (email, username, password){
     })
     .then(response => response.data.data.createUser)
     .catch(error => {
-      console.error(error);
     })
   }
 
@@ -134,7 +129,6 @@ export function createUser (email, username, password){
       })
       .then(response => response.data.data.like)
       .catch(error => {
-        console.error(error);
       })
   }
 
@@ -157,7 +151,6 @@ export function createUser (email, username, password){
       })
       .then(response => response.data.data.unlike)
       .catch(error => {
-        console.error(error);
       })
   }
 
@@ -180,7 +173,6 @@ export function createUser (email, username, password){
       })
       .then(response => response.data.data.hasLike)
       .catch(error => {
-        console.error(error);
       })
   }
 
@@ -203,7 +195,6 @@ export function createUser (email, username, password){
       })
       .then(response => response.data.data.follow)
       .catch(error => {
-        console.error(error);
       })
   }
 
@@ -227,7 +218,6 @@ export function createUser (email, username, password){
       })
       .then(response => response.data.data.unfollow)
       .catch(error => {
-        console.error(error);
       })
   }
 
@@ -250,7 +240,6 @@ export function createUser (email, username, password){
       })
       .then(response => response.data.data.hasFollow)
       .catch(error => {
-        console.error(error);
       })
   }
 
@@ -272,7 +261,6 @@ export function createUser (email, username, password){
       })
       .then(response => response.data.data.getUserByEmail)
       .catch(error => {
-        console.error(error);
       })
   }
 
@@ -294,7 +282,6 @@ export function createUser (email, username, password){
       })
       .then(response => response.data.data.getFollowers)
       .catch(error => {
-        console.error(error);
       })
   }
 
@@ -316,7 +303,6 @@ export function createUser (email, username, password){
       })
       .then(response => response.data.data.getFollowings)
       .catch(error => {
-        console.error(error);
       })
   }
 
@@ -338,12 +324,5 @@ export function createUser (email, username, password){
       })
       .then(response => response.data.data.searchUser)
       .catch(error => {
-        console.error(error);
       })
   }
-
-/*module.exports = {
-  createUser,
-  createMessage,
-  getMessage
-}*/

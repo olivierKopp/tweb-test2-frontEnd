@@ -1,10 +1,6 @@
 import React, { useState } from 'react';
 import { BackgroundPage } from './BackgroundPage';
-import  { Redirect } from 'react-router-dom'
 import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBModalFooter, MDBIcon, MDBCardHeader, MDBBtn, MDBInput } from 'mdbreact';
-
-import { throws } from 'assert';
-import { withRouter } from "react-router";
 
 import { createUser } from '../scripts/graphQL';
 

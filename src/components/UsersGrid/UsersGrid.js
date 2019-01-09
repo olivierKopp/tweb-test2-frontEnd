@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { MDBRow, MDBCol } from 'mdbreact';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
-import { getUserByEmail } from '../../scripts/graphQL';
 import { ProfileCard } from '../card/ProfileCard';
 
 import './style.css';

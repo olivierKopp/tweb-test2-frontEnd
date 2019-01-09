@@ -1,6 +1,5 @@
 import React from 'react';
-import { Navbar, NavbarBrand, NavbarNav, NavItem, NavLink, NavbarToggler, Collapse, FormInline, Dropdown, DropdownToggle, DropdownMenu,  DropdownItem, MDBDropdownItem, Fa } from "mdbreact";
-import { Redirect } from 'react-router-dom';
+import { Navbar, NavbarBrand, NavbarNav, NavItem, NavLink, NavbarToggler, Collapse, FormInline, Dropdown, DropdownToggle, DropdownMenu,  MDBDropdownItem } from "mdbreact";
 
 import { getUser } from '../scripts/graphQL';
 
@@ -24,7 +23,6 @@ export class NavbarPage extends React.Component {
     onSubmit(e) {
         e.preventDefault();
         if(this.state.input !== "") {
-            console.log(this.state.input);
             window.location.replace("/search/" + this.state.input);
         }        
     }
