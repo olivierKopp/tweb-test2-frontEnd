@@ -41,7 +41,7 @@ export const LoginPage = () => {
                                         <form onSubmit={onSubmit}>
                                             <div className="grey-text" style={{ textAlign: 'left' }}>
                                                 <MDBInput 
-                                                    label="✍ your 📧"
+                                                    label="type your email"
                                                     icon="envelope"
                                                     group
                                                     type="email"
@@ -51,7 +51,7 @@ export const LoginPage = () => {
                                                     value={email}
                                                     onChange={e => setEmail(e.target.value)} />
                                                 <MDBInput
-                                                    label="✍ your 🔑"
+                                                    label="type your password"
                                                     icon="lock"
                                                     group
                                                     type="password"
@@ -69,15 +69,10 @@ export const LoginPage = () => {
                                         <MDBModalFooter>
                                             <div className="font-weight-light" style={{ textAlign: 'right' }}>
                                                 <a href="/register">Not in our 
-                                                    <span role="img" aria-label="member"> 👪</span> 
-                                                    <span role="img" aria-label="questionMark"> ❓ </span>
-                                                    Sign 
-                                                    <span role="img" aria-label="up"> 🆙</span>
+                                                    Sign in
                                                 </a>
                                                 <br />
-                                                <a href="/#!">Forgot 
-                                                    <span role="img" aria-label="password"> 🔑</span>
-                                                    <span role="img" aria-label="questionMark"> ❓</span>
+                                                <a href="/#!">Forgot password ?
                                                 </a>
                                             </div>
                                         </MDBModalFooter>

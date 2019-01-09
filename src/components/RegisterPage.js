@@ -42,7 +42,7 @@ export const RegisterPage = () => {
   };
 
     return (
-        <BackgroundPage src={Background}>
+        <BackgroundPage>
             <MDBRow style={ { display: 'flex', justifyContent: 'center'} }>
                 <MDBCol md="4">
                     <MDBCard style={{marginTop: '20%'}}>
@@ -56,7 +56,7 @@ export const RegisterPage = () => {
                             <form onSubmit={onSubmit}>
                                 <div className="grey-text" style={{ textAlign: 'left' }}>
                                     <MDBInput 
-                                        label="✍ your 📧"
+                                        label="email"
                                         icon="envelope"
                                         group
                                         type="email"
@@ -66,7 +66,7 @@ export const RegisterPage = () => {
                                         value={email}
                                         onChange={e => setEmail(e.target.value)} />
                                     <MDBInput
-                                        label="✍ your username"
+                                        label="type your username"
                                         icon="user"
                                         group
                                         type="text"
@@ -76,7 +76,7 @@ export const RegisterPage = () => {
                                         value={username}
                                         onChange={e => setUsername(e.target.value)} />
                                     <MDBInput
-                                        label="✍ your 🔑"
+                                        label="type your password"
                                         icon="lock"
                                         group
                                         type="password"                                            
@@ -84,7 +84,7 @@ export const RegisterPage = () => {
                                         value={password1}
                                         onChange={e => setPassword1(e.target.value)} />
                                     <MDBInput
-                                        label="✍ your 🔑 again"
+                                        label="type your password again"
                                         icon="lock"
                                         group
                                         type="password"                                            
@@ -102,9 +102,7 @@ export const RegisterPage = () => {
                             <MDBModalFooter>
                                 <div className="font-weight-light">
                                     <a href="/login">
-                                        <span role="img" aria-label="back">🔙 </span>
-                                        to login 
-                                        <span role="img" aria-label="page"> 📃</span>
+                                        back to login page
                                     </a>
                                 </div>
                             </MDBModalFooter>
