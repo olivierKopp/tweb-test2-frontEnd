@@ -57,15 +57,6 @@ export class ProfileCard extends Component {
                         </a>
                         <p>{this.state.email}</p>
                         <hr />
-                        <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <a href="USERNAME/following" style={{ margin: '5%' , marginRight: 'auto', fontWeight: 'bold' }}>
-                                Following: {this.state.followingCount}
-                            </a>
-                            <a href="USERNAME/followers" style={{ margin: '5%', marginLeft: 'auto', fontWeight: 'bold' }}>
-                                Followers: {this.state.followersCount}
-                            </a>
-                        </div>
-                        {this.props.displayFollowButton ? <FollowButton userId={this.props.id} followers={this.state.followers} incFollow={this.incFollow} decFollow={this.decFollow} /> : ''}            
                     </div>
                 </div>
             </div>  

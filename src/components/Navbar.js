@@ -89,7 +89,7 @@ export class NavbarPage extends React.Component {
                             <NavItem>
                                 <Dropdown>
                                     <DropdownToggle caret className="dopdown-toggle" nav>
-                                        <img src={this.state.image} className="rounded-circle z-depth-0" style={{height: '35px', width: '35px', padding: 0}} alt="" />
+                                        <img src="./images/menu.png" className="rounded-circle z-depth-0" style={{height: '35px', width: '35px', padding: 0}} alt="" />
                                     </DropdownToggle>
                                     <DropdownMenu className="dropdown-default" right>
                                         <MDBDropdownItem href={`/u/${localStorage.getItem('user_id')}`}>My Profile</MDBDropdownItem>
