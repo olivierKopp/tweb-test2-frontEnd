@@ -13,7 +13,7 @@ export class SearchPage extends Component {
         return (
             <div>
                 <NavbarPage />
-                <BackgroundPage src={Background}>
+                <BackgroundPage >
                     <UsersGrid users={searchUser(this.props.match.params['username']).then(res => res)} />
                 </BackgroundPage >
             </div>
